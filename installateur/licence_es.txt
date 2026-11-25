@@ -1,0 +1,21 @@
+BOUCLIER v3.0 - Estudio de anonimización local
+Creado por Polaether - https://polaether.polaether.workers.dev/
+
+CONCEPTO
+Bouclier oculta datos sensibles (nombres, direcciones, correos, teléfonos, IBAN, tarjetas, documentos de identidad, rostros) en tus imágenes, textos y archivos. También limpia metadatos (EXIF, GPS, autor) y te ayuda a detectar mensajes fraudulentos.
+
+PRIVACIDAD
+- Todo el procesamiento se hace en tu ordenador.
+- Sin conexiones de red durante el uso normal: tus documentos nunca salen de tu PC.
+- Sin telemetría, sin cuenta, sin publicidad.
+- Única excepción: la instalación opcional del OCR (Tesseract) puede descargar un componente, solo si lo solicitas.
+
+CONDICIONES DE USO
+1. Licencia. Bouclier es software libre bajo licencia MIT: puedes usarlo, copiarlo, modificarlo y redistribuirlo libremente, conservando el aviso de copyright y el texto de la licencia (archivo LICENSE).
+2. Ayuda a la decisión. La detección automática (OCR, patrones) puede omitir o identificar mal algunos datos. Revisa siempre el resultado antes de compartir un documento.
+3. Responsabilidad. El software se ofrece "tal cual", sin garantía. El autor no se responsabiliza de pérdidas, fugas de datos o daños derivados de su uso.
+4. Copias. Bouclier nunca modifica tu archivo original: guarda una copia. Conserva tus originales.
+5. Uso lícito. Te comprometes a usar Bouclier solo con documentos que tengas derecho a tratar.
+6. Componentes de terceros. Bouclier usa bibliotecas libres (Qt/PySide6, Pillow, OpenCV, pypdf, Tesseract) con sus propias licencias.
+
+Al hacer clic en "Acepto", confirmas que has leído y aceptado estas condiciones.

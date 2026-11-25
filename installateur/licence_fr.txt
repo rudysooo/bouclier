@@ -1,0 +1,21 @@
+BOUCLIER v3.0 - Studio d'anonymisation local
+Créé par Polaether - https://polaether.polaether.workers.dev/
+
+CONCEPT DE L'APPLICATION
+Bouclier masque les données sensibles (noms, adresses, e-mails, téléphones, IBAN, cartes, numéros d'identité, visages) dans vos images, textes et fichiers. Il nettoie aussi les métadonnées (EXIF, GPS, auteur) et vous aide à repérer les messages d'arnaque.
+
+CONFIDENTIALITÉ
+- Tout le traitement se fait sur votre ordinateur.
+- Aucun appel réseau pendant l'utilisation normale : vos documents ne quittent jamais votre PC.
+- Aucune télémétrie, aucun compte, aucune publicité.
+- Seule exception : l'installation facultative de l'OCR (Tesseract) peut télécharger un composant, uniquement si vous le demandez.
+
+CONDITIONS D'UTILISATION
+1. Licence. Bouclier est un logiciel libre sous licence MIT : vous pouvez l'utiliser, le copier, le modifier et le redistribuer librement, à condition de conserver la mention de copyright et le texte de la licence (fichier LICENSE).
+2. Aide à la décision. La détection automatique (OCR, reconnaissance de motifs) peut oublier ou mal repérer certaines données. Relisez toujours le résultat avant de partager un document.
+3. Responsabilité. L'application est fournie « en l'état », sans garantie. L'auteur n'est pas responsable des pertes, fuites de données ou dommages liés à son utilisation.
+4. Sauvegarde. Bouclier ne modifie jamais votre fichier d'origine : il enregistre une copie. Conservez vos originaux.
+5. Usage licite. Vous vous engagez à n'utiliser Bouclier que sur des documents que vous avez le droit de traiter.
+6. Composants tiers. Bouclier utilise des bibliothèques libres (Qt/PySide6, Pillow, OpenCV, pypdf, Tesseract) soumises à leurs propres licences.
+
+En cliquant sur « J'accepte », vous reconnaissez avoir lu et accepté ces conditions.

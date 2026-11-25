@@ -1,0 +1,21 @@
+BOUCLIER v3.0 - Local redaction studio
+Created by Polaether - https://polaether.polaether.workers.dev/
+
+CONCEPT
+Bouclier hides sensitive data (names, addresses, e-mails, phone numbers, IBANs, cards, ID numbers, faces) in your images, texts and files. It also cleans metadata (EXIF, GPS, author) and helps you spot scam messages.
+
+PRIVACY
+- All processing happens on your computer.
+- No network calls during normal use: your documents never leave your PC.
+- No telemetry, no account, no ads.
+- Only exception: the optional OCR setup (Tesseract) may download a component, and only if you ask for it.
+
+TERMS OF USE
+1. License. Bouclier is free, open-source software under the MIT license: you may use, copy, modify and redistribute it freely, provided you keep the copyright notice and license text (LICENSE file).
+2. Decision aid. Automatic detection (OCR, pattern matching) may miss or misidentify some data. Always review the result before sharing a document.
+3. Liability. The software is provided "as is", without warranty. The author is not liable for losses, data leaks or damages resulting from its use.
+4. Backups. Bouclier never modifies your original file: it saves a copy. Keep your originals.
+5. Lawful use. You agree to use Bouclier only on documents you have the right to process.
+6. Third-party components. Bouclier uses open-source libraries (Qt/PySide6, Pillow, OpenCV, pypdf, Tesseract) under their own licenses.
+
+By clicking "I accept", you confirm that you have read and accepted these terms.

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+build/
+dist/
+dist_installateur/
+installation_log.txt
+bouclier_erreur.log
+bouclier_settings.json
+bouclier_patterns.json
+.venv*/
+.pytest_cache/
+*.part
+*.log
