@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🛡️ Bouclier
+<img src="bouclier/ui/assets/logo.svg" width="96" alt="Logo de Bouclier">
+
+# Bouclier
 
 **Masquez vos données personnelles avant de partager une image, un texte ou un document.**<br>
 Tout se passe sur votre ordinateur : aucun compte, aucune publicité, aucune télémétrie.
@@ -85,11 +87,17 @@ bouclier/        moteur : OCR, détection, masquage, nettoyage, anti-arnaque
 bouclier/ui/     interface Qt / QML
 installateur/    construction de l'installateur Windows
 tests/           tests automatiques
+docs/            captures d'écran
+Installer.bat    installation depuis le code source (Windows)
 ```
 
 ## Signaler un problème
 
 Ouvrez un [ticket](https://github.com/rudysooo/bouclier/issues). **N'y joignez jamais un document contenant de vraies données personnelles.**
+
+## Sécurité
+
+Une donnée qui aurait dû disparaître reste lisible ? Voyez [comment la signaler](SECURITY.md).
 
 ## Licence
 

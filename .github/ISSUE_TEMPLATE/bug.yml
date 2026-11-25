@@ -1,0 +1,27 @@
+name: Signaler un problème
+description: Quelque chose ne fonctionne pas ou une donnée n'est pas masquée
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "**Ce ticket est public.** N'ajoutez aucun vrai document ni aucune vraie donnée personnelle."
+  - type: input
+    id: version
+    attributes:
+      label: Version de Bouclier
+      placeholder: "3.1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Ce que vous avez fait
+    validations:
+      required: true
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Ce que vous attendiez, et ce qui s'est passé
+      description: Utilisez des exemples inventés.
+    validations:
+      required: true

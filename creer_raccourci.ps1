@@ -14,12 +14,12 @@ $created = $false
 foreach ($folder in ($folders | Where-Object { $_ } | Select-Object -Unique)) {
     try {
         if (-not (Test-Path -LiteralPath $folder)) { New-Item -ItemType Directory -Path $folder -Force | Out-Null }
-        $path = Join-Path $folder 'Bouclier v3.0.lnk'
+        $path = Join-Path $folder 'Bouclier.lnk'
         $link = $shell.CreateShortcut($path)
         $link.TargetPath = $Target
         $link.Arguments = '"' + $ScriptPath + '"'
         $link.WorkingDirectory = $WorkDir
-        $link.Description = 'Bouclier v3.0 - Anonymisation OCR de documents et images'
+        $link.Description = 'Bouclier - Anonymisation OCR de documents et images'
         if ($Icon -and (Test-Path -LiteralPath $Icon)) { $link.IconLocation = $Icon }
         $link.Save()
         if (Test-Path -LiteralPath $path) { Write-Output "LNK:$path"; $created = $true }

@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 cd /d "%~dp0"
-title Installation de Bouclier v3.0
+title Installation de Bouclier
 
 set "PY="
 call :trouver "py -3"
@@ -19,7 +19,7 @@ if not defined PY (
 set "CODE=%ERRORLEVEL%"
 echo.
 if "%CODE%"=="0" (
-  echo === Installation terminee. Double-cliquez sur "Bouclier v3.0" sur le Bureau. ===
+  echo === Installation terminee. Double-cliquez sur "Bouclier" sur le Bureau. ===
 ) else (
   echo === Installation terminee avec des avertissements : lisez les lignes ci-dessus ^(journal : installation_log.txt^) ===
 )

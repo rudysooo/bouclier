@@ -1,4 +1,4 @@
-"""Installateur de Bouclier v3.0 (Windows, macOS, Linux).
+"""Installateur de Bouclier (Windows, macOS, Linux).
 
 Etapes : 1) modules Python  2) OCR Tesseract (detecte s'il est deja la, installe sinon)
          3) raccourcis (Bureau + menu), verifies un par un.
@@ -129,7 +129,7 @@ def _shortcut_windows() -> list:
                 if d.is_dir():
                     desktop = d
                     break
-            lnk = desktop / "Bouclier v3.0.lnk"
+            lnk = desktop / "Bouclier.lnk"
             vbs = Path(tempfile.gettempdir()) / "bouclier_lnk.vbs"
             vbs.write_text(
                 'Set s = CreateObject("WScript.Shell")\n'
@@ -158,7 +158,7 @@ def _shortcut_mac() -> list:
 
 def _shortcut_linux() -> list:
     entry = (
-        "[Desktop Entry]\nType=Application\nName=Bouclier v3.0\n"
+        "[Desktop Entry]\nType=Application\nName=Bouclier\n"
         "Comment=Anonymisation OCR de documents et images (100% local)\n"
         f'Exec="{sys.executable}" "{HERE / "Bouclier.pyw"}"\nPath={HERE}\nTerminal=false\nCategories=Utility;\n'
     )
@@ -198,7 +198,7 @@ def make_shortcuts() -> bool:
 
 def main(argv) -> int:
     say("=" * 66)
-    say(f"Installation de Bouclier v3.0 - {datetime.now():%Y-%m-%d %H:%M}")
+    say(f"Installation de Bouclier - {datetime.now():%Y-%m-%d %H:%M}")
     say(f"Python : {sys.version.split()[0]} ({sys.executable})")
     say("=" * 66)
     if sys.version_info < (3, 9):
