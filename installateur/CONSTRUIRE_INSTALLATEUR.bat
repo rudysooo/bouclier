@@ -13,7 +13,7 @@ set "ISCC=%ProgramFiles(x86)%\Inno Setup 6\ISCC.exe"
 if not exist "%ISCC%" set "ISCC=%ProgramFiles%\Inno Setup 6\ISCC.exe"
 if not exist "%ISCC%" set "ISCC=%ProgramFiles(x86)%\Inno Setup 7\ISCC.exe"
 if not exist "%ISCC%" set "ISCC=%ProgramFiles%\Inno Setup 7\ISCC.exe"
-if not exist "%ISCC%" (echo Inno Setup 6 ou 7 introuvable : https://jrsoftware.org/isdl.php & goto :err)
+if not exist "%ISCC%" (echo Inno Setup 6 ou 7 introuvable : voir jrsoftware.org & goto :err)
 "%ISCC%" Bouclier_Setup.iss || goto :err
 echo.
 echo TERMINE : dist_installateur\Bouclier_Installer.exe

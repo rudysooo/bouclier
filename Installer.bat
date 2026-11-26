@@ -9,7 +9,7 @@ if not defined PY call :trouver "python"
 if not defined PY call :trouver "python3"
 if not defined PY (
   echo [ERREUR] Python est introuvable ^(ou seul le faux "python" du Microsoft Store est present^).
-  echo Installez Python depuis https://www.python.org/downloads/ en cochant "Add python.exe to PATH",
+  echo Installez Python depuis le site python.org en cochant "Add python.exe to PATH",
   echo puis relancez Installer.bat.
   pause
   exit /b 1

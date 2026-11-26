@@ -8,12 +8,9 @@
 Tout se passe sur votre ordinateur : aucun compte, aucune publicité, aucune télémétrie.
 
 [![Tests](https://github.com/rudysooo/bouclier/actions/workflows/tests.yml/badge.svg)](https://github.com/rudysooo/bouclier/actions/workflows/tests.yml)
-[![Dernière version](https://img.shields.io/github/v/release/rudysooo/bouclier?label=version)](https://github.com/rudysooo/bouclier/releases/latest)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
 
-### [⬇️ Télécharger pour Windows](https://github.com/rudysooo/bouclier/releases/latest/download/Bouclier_Installer.exe)
-
-Un projet [Polaether](https://polaether.polaether.workers.dev/) · Interface en français, anglais et espagnol
+Un projet Polaether · Interface en français, anglais et espagnol
 
 </div>
 
@@ -33,15 +30,9 @@ Un projet [Polaether](https://polaether.polaether.workers.dev/) · Interface en 
 
 ## Installation (Windows)
 
-1. [Téléchargez `Bouclier_Installer.exe`](https://github.com/rudysooo/bouclier/releases/latest/download/Bouclier_Installer.exe).
-2. Double-cliquez dessus. Windows peut afficher « Windows a protégé votre ordinateur », car l'installateur n'est pas signé numériquement : cliquez sur **Informations complémentaires**, puis **Exécuter quand même**.
-3. Pour la lecture automatique du texte dans les images, ouvrez Bouclier et cliquez sur **Installer / Réparer automatiquement**.
+Ce dépôt ne propose pas de lien de téléchargement pour le moment : Bouclier se lance [depuis le code source](#depuis-le-code-source).
 
-Vous pouvez comparer l'empreinte SHA-256 indiquée sur la [page de la version](https://github.com/rudysooo/bouclier/releases/latest) avec celle de votre fichier :
-
-```powershell
-Get-FileHash Bouclier_Installer.exe
-```
+Pour la lecture automatique du texte dans les images, ouvrez Bouclier et cliquez sur **Installer / Réparer automatiquement**.
 
 ### La lecture du texte (OCR)
 
@@ -78,7 +69,7 @@ python -m pytest
 
 ### Construire l'installateur
 
-Avec [Inno Setup](https://jrsoftware.org/isdl.php) 6 ou 7, lancez `installateur\CONSTRUIRE_INSTALLATEUR.bat`. Résultat : `dist_installateur\Bouclier_Installer.exe`.
+Avec Inno Setup 6 ou 7, lancez `installateur\CONSTRUIRE_INSTALLATEUR.bat`. Résultat : `dist_installateur\Bouclier_Installer.exe`.
 
 ### Organisation
 
