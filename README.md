@@ -30,7 +30,14 @@ Un projet Polaether · Interface en français, anglais et espagnol
 
 ## Installation (Windows)
 
-Ce dépôt ne propose pas de lien de téléchargement pour le moment : Bouclier se lance [depuis le code source](#depuis-le-code-source).
+1. Dans la rubrique **Releases** de cette page GitHub, ouvrez la dernière version et prenez `Bouclier_Installer.exe`.
+2. Double-cliquez dessus. Windows peut afficher « Windows a protégé votre ordinateur », car l'installateur n'est pas signé numériquement : cliquez sur **Informations complémentaires**, puis **Exécuter quand même**.
+
+Vous pouvez comparer l'empreinte SHA-256 indiquée sur la page de la version avec celle de votre fichier :
+
+```powershell
+Get-FileHash Bouclier_Installer.exe
+```
 
 Pour la lecture automatique du texte dans les images, ouvrez Bouclier et cliquez sur **Installer / Réparer automatiquement**.
 
